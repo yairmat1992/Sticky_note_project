@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+
+<head>
+    <title>My Tasks Board</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link href="stick.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div id="count"></div>
+    <div class='container-fluid'>
+        <header><img class="img-responsive" src="title.png" alt="my task board" /></header>
+        <form>
+            <label>
+                <textarea rows="2" placeholder="Enter Your note Here" name="mytasks" minlength="4" required></textarea>
+            </label>
+            <label>
+                <span>Date</span>
+                <input type="date" min=2019-07-21 placeholder="Date" name="date" required />
+            </label>
+            <button type="button" id="save" class="btn btn-primary">
+                save note
+            </button>
+        </form>
+        <div class='container-fluid2'>
+            <div class="note_container"></div>
+        </div>
+    </div>
+    <script src="index.js" type="text/javascript"></script>
+</body>
+
+</html>
